@@ -5,9 +5,9 @@ header {
 }
 
 header nav {
-  width: 100%;
+  width: 60%;
   display: flex;
-  align-items: center;
+  align-items: right;
   text-align: right;
   justify-content: space-around;
 }
@@ -24,33 +24,42 @@ header nav {
 }
 
 footer {
-  background-color: #fdf2d1;
+  background-color: black;
+  color: white;
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
 }
 
-.card img {
-  width: 80%;
+.card1{
+  background-color: yellow;
 }
 
-footer img {
-  width: 150px;
+.card2{
+  background-color: lavender;
+}
+
+.card1 img {
+  width: 50%;
+  display: flex;
+  align-items: right;
+}
+.card2 img {
+  width: 50%;
+}
+
+footer nav {
+  width: 60%;
 }
 
 h1 {
   width: 25%;
 }
 
-
-
-.contact div {
-  width: 50%;
-}
-
-form {
+/* form {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .products__cards {
   display: grid;
