@@ -1,0 +1,80 @@
+header {
+  background-color: #f6e7d5;
+  display: flex;
+  align-items: center;
+}
+
+.products {
+  background-color: #e5efdb;
+}
+
+.contact {
+  background-color: #e0eaf5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer {
+  background-color: #fdf2d1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.card img {
+  width: 300px;
+}
+
+footer img {
+  width: 150px;
+}
+
+h1 {
+  width: 25%;
+}
+
+header nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact div {
+  width: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.products__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px
+}
+
+footer div,
+footer nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__logo {
+  text-align: right;
+}
+
+footer a,
+footer p {
+  margin: 10px 0;
+}
+
+.hero {
+  background-image: url(./assets/duck-hero.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+section{
+  min-height: 500px;
+}
